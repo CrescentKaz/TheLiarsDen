@@ -1,1 +1,32 @@
-// css code goes here
+body {
+    border: solid 2px black;
+}
+
+header {
+    border: solid 2px black;
+}
+
+.navbar {
+    display: inline-block;
+    border: solid 2px black;
+}
+
+li {
+    border: solid 2px black;
+}
+
+main {
+    border: solid 2px black;
+}
+
+.name {
+    border: solid 2px blue;
+}
+
+#text_title {
+    border: solid 2px blue;
+}
+
+#text_item {
+    border: solid 2px blue;
+}
