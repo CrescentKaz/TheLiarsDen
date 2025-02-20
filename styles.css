@@ -52,6 +52,7 @@ img {
     border: solid 2px black;
     height: 25vh;
     width: 25vh;
+    margin: auto;
 }
 
 #menu_section, #games_section, #staff_section, #more_section {
