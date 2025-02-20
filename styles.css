@@ -38,3 +38,11 @@ main {
 .tiny_text {
     border: solid 2px blue;
 }
+
+img {
+    border: solid 2px black;
+}
+
+#menu_section, #games_section, #staff_section {
+    display: none;
+}
