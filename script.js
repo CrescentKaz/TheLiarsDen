@@ -15,7 +15,7 @@ function homeFunction() {
     menu_section.style.display = "none";
     games_section.style.display = "none";
     staff_section.style.display = "none";
-    affiliations_section.style.display = "none";
+    more_section.style.display = "none";
 }
 
 function menuFunction() {
@@ -23,7 +23,7 @@ function menuFunction() {
     menu_section.style.display = "contents";
     games_section.style.display = "none";
     staff_section.style.display = "none";
-    affiliations_section.style.display = "none";
+    more_section.style.display = "none";
 }
 
 function gamesFunction() {
@@ -31,7 +31,7 @@ function gamesFunction() {
     menu_section.style.display = "none";
     games_section.style.display = "contents";
     staff_section.style.display = "none";
-    affiliations_section.style.display = "none";
+    more_section.style.display = "none";
 }
 
 function staffFunction() {
@@ -39,7 +39,7 @@ function staffFunction() {
     menu_section.style.display = "none";
     games_section.style.display = "none";
     staff_section.style.display = "contents";
-    affiliations_section.style.display = "none";
+    more_section.style.display = "none";
 }
 
 function affiliationsFunction() {
@@ -47,5 +47,5 @@ function affiliationsFunction() {
     menu_section.style.display = "none";
     games_section.style.display = "none";
     staff_section.style.display = "none";
-    affiliations_section.style.display = "contents";
+    more_section.style.display = "contents";
 }
