@@ -1,5 +1,6 @@
 body {
     border: solid 2px black;
+    box-sizing: border-box;
 }
 
 header {
@@ -41,8 +42,10 @@ main {
 
 img {
     border: solid 2px black;
+    height: 25vh;
+    width: 25vh;
 }
 
-#menu_section, #games_section, #staff_section {
+#menu_section, #games_section, #staff_section, #more_section {
     display: none;
 }
