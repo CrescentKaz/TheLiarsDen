@@ -19,22 +19,22 @@ main {
     border: solid 2px black;
 }
 
-#name {
+.name {
     border: solid 2px blue;
 }
 
-#text_title {
+.text_title {
     border: solid 2px blue;
 }
 
-#text_subtitle {
+.text_subtitle {
     border: solid 2px blue;
 }
 
-#text_item {
+.text_item {
     border: solid 2px blue;
 }
 
-#tiny_text {
+.tiny_text {
     border: solid 2px blue;
 }
