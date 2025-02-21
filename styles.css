@@ -29,18 +29,22 @@ main {
 
 .name {
     border: solid 2px blue;
+    text-align: center;
 }
 
 .text_title {
     border: solid 2px blue;
+    text-align: center;
 }
 
 .text_subtitle {
     border: solid 2px blue;
+    text-align: center;
 }
 
 .text_item {
     border: solid 2px blue;
+    text-align: center;
 }
 
 .tiny_text {
@@ -52,6 +56,8 @@ img {
     border: solid 2px black;
     height: 25vh;
     width: 25vh;
+    height-min: 25vw;
+    width-min: 25vw;
     margin: auto;
 }
 
