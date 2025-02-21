@@ -77,10 +77,10 @@ function moreFunction() {
 
 function haveInven() {
     for (let i = 0; i < menu.length+1; i++) {
-        if (inven.includes(menu[i])) {
-            menu[i].style.display = "contents";
-        } else {
+        if (!inven.includes(menu[i])) {
             menu[i].style.display = "none";
+        } else {
+            menu[i].style.display = "contents";
         };
     };
 }
