@@ -11,6 +11,22 @@ const inven = [
     apple_juice
 ];
 
+const menu = [
+    salt_cod_puffs, 
+    finger_sandwiches, 
+    kaiser_roll, 
+    knights_bread, 
+    frozen_spirits, 
+    orange_juice, 
+    buckwheat_tea, 
+    purple_carrot_juice, 
+    loquat_juice, 
+    grape_juice, 
+    apple_juice, 
+    lemonade, 
+    blood_tomato_juice
+];
+
 btn1.onclick = homeFunction;
 btn2.onclick = menuFunction;
 btn3.onclick = gamesFunction;
@@ -33,21 +49,6 @@ function menuFunction() {
     games_section.style.display = "none";
     staff_section.style.display = "none";
     more_section.style.display = "none";
-    const menu = [
-        salt_cod_puffs, 
-        finger_sandwiches, 
-        kaiser_roll, 
-        knights_bread, 
-        frozen_spirits, 
-        orange_juice, 
-        buckwheat_tea, 
-        purple_carrot_juice, 
-        loquat_juice, 
-        grape_juice, 
-        apple_juice, 
-        lemonade, 
-        blood_tomato_juice
-    ];
     haveInven();
 }
 
