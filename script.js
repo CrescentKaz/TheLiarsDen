@@ -76,8 +76,8 @@ function affiliationsFunction() {
 }
 
 function haveInven() {
-    for (let i = 0; i < inven.length+1; i++) {
-        if (inven.includes(item) && menu.include(item)) {
+    for (let i = 0; i < menu.length+1; i++) {
+        if (menu.some(item => inven.includes(item))) {
             item.style.display = "contents";
         } else {
             item.style.display = "none";
