@@ -1,24 +1,10 @@
-const salt_cod_puffs = document.querySelector("#salt_cod_puffs");
-const finger_sandwiches = document.querySelector("#finger_sandwiches");
-const kaiser_roll = document.querySelector("#kaiser_roll");
-const knights_bread = document.querySelector("#knights_bread");
-const frozen_spirits = document.querySelector("#frozen_spirits");
-const orange_juice = document.querySelector("#orange_juice");
-const buckwheat_tea = document.querySelector("#buckwheat_tea");
-const purple_carrot_juice = document.querySelector("#purple_carrot_juice");
-const loquat_juice = document.querySelector("#loquat_juice");
-const grape_juice = document.querySelector("#grape_juice");
-const apple_juice = document.querySelector("#apple_juice");
-const lemonade = document.querySelector("#lemonade");
-const blood_tomato_juice = document.querySelector("#blood_tomato_juice");
-
 const btn1 = document.querySelector("#btn1");
 const btn2 = document.querySelector("#btn2");
 const btn3 = document.querySelector("#btn3");
 const btn4 = document.querySelector("#btn4"); 
 const btn5 = document.querySelector("#btn5");
 
-let inven = [
+const inven = [
     salt_cod_puffs,
     kaiser_roll,
     frozen_spirits,
@@ -47,6 +33,22 @@ function menuFunction() {
     games_section.style.display = "none";
     staff_section.style.display = "none";
     more_section.style.display = "none";
+    const menu = [
+        salt_cod_puffs, 
+        finger_sandwiches, 
+        kaiser_roll, 
+        knights_brea, 
+        frozen_spirits, 
+        orange_juice, 
+        buckwheat_tea, 
+        purple_carrot_juice, 
+        loquat_juice, 
+        grape_juice, 
+        apple_juice, 
+        lemonade, 
+        blood_tomato_juice
+    ];
+    haveInven();
 }
 
 function gamesFunction() {
@@ -74,9 +76,9 @@ function affiliationsFunction() {
 }
 
 function haveInven() {
-    if (!inven.includes(item)) {
-        item.style.display = "none";
-    } else {
+    if (inven.includes(item) && menu.include(item)) {
         item.style.display = "contents";
+    } else {
+        item.style.display = "none";
     }
 }
