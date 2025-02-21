@@ -5,17 +5,10 @@ let inven = [
     apple_juice
 ]
 
-const btn1 = document.querySelector("#btn1");
-const btn2 = document.querySelector("#btn2");
-const btn3 = document.querySelector("#btn3");
-const btn4 = document.querySelector("#btn4"); 
-const btn5 = document.querySelector("#btn5");
-
 const salt_cod_puffs = document.querySelector("#salt_cod_puffs");
 const finger_sandwiches = document.querySelector("#finger_sandwiches");
 const kaiser_roll = document.querySelector("#kaiser_roll");
 const knights_bread = document.querySelector("#knights_bread");
-
 const frozen_spirits = document.querySelector("#frozen_spirits");
 const orange_juice = document.querySelector("#orange_juice");
 const buckwheat_tea = document.querySelector("#buckwheat_tea");
@@ -25,6 +18,12 @@ const grape_juice = document.querySelector("#grape_juice");
 const apple_juice = document.querySelector("#apple_juice");
 const lemonade = document.querySelector("#lemonade");
 const blood_tomato_juice = document.querySelector("#blood_tomato_juice");
+
+const btn1 = document.querySelector("#btn1");
+const btn2 = document.querySelector("#btn2");
+const btn3 = document.querySelector("#btn3");
+const btn4 = document.querySelector("#btn4"); 
+const btn5 = document.querySelector("#btn5");
 
 btn1.onclick = homeFunction;
 btn2.onclick = menuFunction;
