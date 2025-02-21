@@ -30,21 +30,25 @@ main {
 .name {
     border: solid 2px blue;
     text-align: center;
+    font-size: 5vh;
 }
 
 .text_title {
     border: solid 2px blue;
     text-align: center;
+    font-size: 4vh;
 }
 
 .text_subtitle {
     border: solid 2px blue;
     text-align: center;
+    font-size: 3vh;
 }
 
 .text_item {
     border: solid 2px blue;
     text-align: center;
+    font-size: 2vh;
 }
 
 .tiny_text {
