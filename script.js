@@ -9,13 +9,13 @@ const inven = [
     kaiser_roll,
     frozen_spirits,
     apple_juice
-]
+];
 
 btn1.onclick = homeFunction;
 btn2.onclick = menuFunction;
 btn3.onclick = gamesFunction;
 btn4.onclick = staffFunction;
-btn5.onclick = affiliationsFunction;
+btn5.onclick = moreFunction;
 
 haveInven();
 
@@ -67,7 +67,7 @@ function staffFunction() {
     more_section.style.display = "none";
 }
 
-function affiliationsFunction() {
+function moreFunction() {
     home_section.style.display = "none";
     menu_section.style.display = "none";
     games_section.style.display = "none";
