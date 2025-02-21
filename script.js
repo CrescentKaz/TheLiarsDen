@@ -77,10 +77,10 @@ function affiliationsFunction() {
 
 function haveInven() {
     for (let i = 0; i < menu.length+1; i++) {
-        if (menu.some(item => inven.includes(item))) {
-            item.style.display = "contents";
+        if (inven.includes(menu[i])) {
+            menu[i].style.display = "contents";
         } else {
-            item.style.display = "none";
+            menu[i].style.display = "none";
         };
     };
 }
