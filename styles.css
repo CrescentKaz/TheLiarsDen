@@ -58,13 +58,3 @@ img {
 #menu_section, #games_section, #staff_section, #more_section {
     display: none;
 }
-
-/* items listed below can be set to not display as inventory runs out */
-
-#salty_cod_puffs {
-    display: contents;
-}
-
-#kaiser_roll {
-    display: contents;
-}
