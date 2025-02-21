@@ -1,10 +1,3 @@
-let inven = [
-    salt_cod_puffs,
-    kaiser_roll,
-    frozen_spirits,
-    apple_juice
-]
-
 const salt_cod_puffs = document.querySelector("#salt_cod_puffs");
 const finger_sandwiches = document.querySelector("#finger_sandwiches");
 const kaiser_roll = document.querySelector("#kaiser_roll");
@@ -24,6 +17,13 @@ const btn2 = document.querySelector("#btn2");
 const btn3 = document.querySelector("#btn3");
 const btn4 = document.querySelector("#btn4"); 
 const btn5 = document.querySelector("#btn5");
+
+let inven = [
+    salt_cod_puffs,
+    kaiser_roll,
+    frozen_spirits,
+    apple_juice
+]
 
 btn1.onclick = homeFunction;
 btn2.onclick = menuFunction;
