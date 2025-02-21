@@ -76,7 +76,7 @@ function moreFunction() {
 }
 
 function haveInven() {
-    for (let i = 0; i < menu.length+1; i++) {
+    for (let i = 0; i < menu.length; i++) {
         if (!inven.includes(menu[i])) {
             menu[i].style.display = "none";
         } else {
