@@ -37,7 +37,7 @@ function menuFunction() {
         salt_cod_puffs, 
         finger_sandwiches, 
         kaiser_roll, 
-        knights_brea, 
+        knights_bread, 
         frozen_spirits, 
         orange_juice, 
         buckwheat_tea, 
@@ -76,9 +76,11 @@ function affiliationsFunction() {
 }
 
 function haveInven() {
-    if (inven.includes(item) && menu.include(item)) {
-        item.style.display = "contents";
-    } else {
-        item.style.display = "none";
-    }
+    inven.forEach(item) {
+        if (inven.includes(item) && menu.include(item)) {
+            item.style.display = "contents";
+        } else {
+            item.style.display = "none";
+        };
+    };
 }
