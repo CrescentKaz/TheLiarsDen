@@ -4,36 +4,11 @@ const btn3 = document.querySelector("#btn3");
 const btn4 = document.querySelector("#btn4"); 
 const btn5 = document.querySelector("#btn5");
 
-const inven = [
-    salt_cod_puffs,
-    kaiser_roll,
-    frozen_spirits,
-    apple_juice
-];
-
-const menu = [
-    salt_cod_puffs, 
-    finger_sandwiches, 
-    kaiser_roll, 
-    knights_bread, 
-    frozen_spirits, 
-    orange_juice, 
-    buckwheat_tea, 
-    purple_carrot_juice, 
-    loquat_juice, 
-    grape_juice, 
-    apple_juice, 
-    lemonade, 
-    blood_tomato_juice
-];
-
 btn1.onclick = homeFunction;
 btn2.onclick = menuFunction;
 btn3.onclick = gamesFunction;
 btn4.onclick = staffFunction;
 btn5.onclick = moreFunction;
-
-haveInven();
 
 function homeFunction() {
     home_section.style.display = "contents";
@@ -49,7 +24,6 @@ function menuFunction() {
     games_section.style.display = "none";
     staff_section.style.display = "none";
     more_section.style.display = "none";
-    haveInven();
 }
 
 function gamesFunction() {
@@ -74,14 +48,4 @@ function moreFunction() {
     games_section.style.display = "none";
     staff_section.style.display = "none";
     more_section.style.display = "contents";
-}
-
-function haveInven() {
-    for (let i = 0; i < menu.length; i++) {
-        if (!inven.includes(menu[i])) {
-            menu[i].style.display = "none";
-        } else {
-            menu[i].style.display = "contents";
-        };
-    };
 }
