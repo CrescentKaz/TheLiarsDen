@@ -60,8 +60,8 @@ img {
     border: solid 2px black;
     height: 25vh;
     width: 25vh;
-    height-min: 25vw;
-    width-min: 25vw;
+    min-height: 25vw;
+    min-width: 25vw;
     margin-left: auto;
     margin-right: auto;
 }
