@@ -62,8 +62,18 @@ img {
     width: 25vh;
     min-height: 25vw;
     min-width: 25vw;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#tavern_image {
+    border: solid 2px black;
+    height: 50vh;
+    width: 50vh;
+    min-height: 50vw;
+    min-width: 50vw;
+    display: block;
+    margin: 0 auto;
 }
 
 #menu_section, #games_section, #staff_section, #more_section {
