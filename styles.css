@@ -1,15 +1,14 @@
 body {
-    border: solid 2px black;
     box-sizing: border-box;
+    background-image: url("./images/LiarsDenBackground1.png");
 }
 
 header {
-    border: solid 2px black;
+    background-color: #23120B;
 }
 
 .navbar {
     display: inline-block;
-    border: solid 2px black;
     position: fixed;
     height: 5vh;
     width: 100vw;
@@ -19,59 +18,47 @@ header {
 }
 
 button {
-    border: solid 2px black;
+    border: solid 2px #23120B;
+    border-radius: 25%;
+    color: #093414;
 }
 
 main {
-    border: solid 2px black;
     margin: 7vh;
 }
 
 .name {
-    border: solid 2px blue;
     text-align: center;
     font-size: 5vh;
+    color: #093414;
 }
 
 .text_title {
-    border: solid 2px blue;
     text-align: center;
     font-size: 4vh;
 }
 
 .text_subtitle {
-    border: solid 2px blue;
     text-align: center;
     font-size: 3vh;
 }
 
 .text_item {
-    border: solid 2px blue;
     text-align: center;
     font-size: 2vh;
 }
 
 .tiny_text {
-    border: solid 2px blue;
     font-size: 1vh;
 }
 
 img {
-    border: solid 2px black;
+    border: solid 2px #23120B;
+    border-radius: 50%;
     height: 25vh;
     width: 25vh;
     min-height: 25vw;
     min-width: 25vw;
-    display: block;
-    margin: 0 auto;
-}
-
-#tavern_image {
-    border: solid 2px black;
-    height: 50vh;
-    width: 50vh;
-    min-height: 50vw;
-    min-width: 50vw;
     display: block;
     margin: 0 auto;
 }
