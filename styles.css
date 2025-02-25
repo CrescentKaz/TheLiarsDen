@@ -1,3 +1,7 @@
+html {
+    background-color: black;
+}
+
 body {
     box-sizing: border-box;
     background-image: url("./images/LiarsDenBackground1.png");
@@ -83,4 +87,8 @@ img {
 
 #menu_section, #games_section, #staff_section, #more_section {
     display: none;
+}
+
+#menu_section {
+    width: 50vw;
 }
