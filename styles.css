@@ -27,7 +27,7 @@ header {
 button {
     border: solid 2px #23120B;
     border-radius: 25%;
-    color: bisque;
+    color: #FFE4C4;
     background-color: #093414;
 }
 
@@ -39,14 +39,14 @@ main {
     text-align: center;
     font-size: 5vh;
     color: #093414;
-    background-color: bisque; 
+    background-color: #FFE4C4; 
     opacity: 0.5;
 }
 
 .text_title {
     text-align: center;
     font-size: 4vh;
-    color: bisque;
+    color: #FFE4C4;
     background-color: #23120B;
     opacity: 0.5;
 }
@@ -54,7 +54,7 @@ main {
 .text_subtitle {
     text-align: center;
     font-size: 3vh;
-    color: bisque;
+    color: #FFE4C4;
     background-color: #23120B;
     opacity: 0.5;
 }
@@ -62,14 +62,14 @@ main {
 .text_item {
     text-align: center;
     font-size: 2vh;
-    color: bisque;
+    color: #FFE4C4;
     background-color: #093414;
     opacity: 0.5;
 }
 
 .tiny_text {
     font-size: 1vh;
-    color: bisque;
+    color: #FFE4C4;
     background-color: #23120B;
     opacity: 0.5;
 }
